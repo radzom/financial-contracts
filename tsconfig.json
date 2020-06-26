@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "target": "ES5",
+      "module": "CommonJS",
+      "lib": ["ESNext"],
+      "outDir": "dist",
+      "strict": true,
+      "noImplicitAny": false,
+      "noImplicitThis": false,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "sourceMap": true
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["./node_modules", "./dist"]
+  }
+  
